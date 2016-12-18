@@ -177,6 +177,7 @@ If you don't want to pass the complete object please see the next API.
 PUT /api/employee/update/{id}
 ```
 **Request body parameters**
+
 |Name|Description|Type|Optional|Max Length|
 |----|-----------|----|--------|----------|
 |employeeId|Employee ID on the system|Number|No|-|
@@ -209,6 +210,7 @@ If you are having the entire Employee object in your input, please see previous 
 PATCH /api/employee/patch/{id}
 ```
 **Request body parameters**
+
 |Name|Description|Type|Optional|Max Length|
 |----|-----------|----|--------|----------|
 |employeeId|Employee ID on the system|Number|No|-|
@@ -240,6 +242,7 @@ This will allow a registered user to delete an Employee based on employee id.
 DELETE /api/employee/delete/{id}
 ```
 **Request body parameters**
+
 |Name|Description|Type|Optional|Max Length|
 |----|-----------|----|--------|----------|
 |id|Employee Id|Number|No|-|
