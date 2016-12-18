@@ -1,0 +1,10 @@
+insert into registration values (999999, 'John Smith', 'jhon@abc.com', '442e7780-c4f7-11e6-a4a6-cec0c932ce01');
+insert into login_account values ('ems_user', 'ems_pwd', 'ems_client', 'ems_secret');
+insert into role values (1, 'Admin', 'Administration Roles');
+insert into role values (2, 'Employee', 'Employee Roles');
+insert into department values (1, 'Administration', 'Admin Department');
+insert into department values (2, 'IT', 'IT Department');
+insert into department values (3, 'HR', 'Human Resources Department');
+insert into employee values ('100001', 'John', 'Jeffer', 1, '1980-02-10', '2010-01-20', 1, 'Male', 50000, 'johnjeffer@ems.com');
+insert into employee values ('100002', 'Sam', 'Ander', 2, '1984-08-13', '2012-02-23', 1, 'Male', 40000, 'samander@ems.com');
+insert into employee values ('100003', 'Mary', 'Alfred', 1, '1985-10-22', '2015-01-10', 1, 'Female', 45000, 'maryalfred@ems.com');
